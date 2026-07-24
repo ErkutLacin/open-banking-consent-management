@@ -61,7 +61,7 @@ Bu belge, SA-001'de tanımlanan paydaşların proje boyunca üretilecek her akti
 
 ## 4. RACI Matrisi
 
-![RACI Matrisi](/Users/ercumentlacin/open-banking-consent-management/assets/screenshots/raci-heatmap.png)
+![RACI Matrisi](/assets/screenshots/raci-heatmap.png)
 ---
 
 ## 5. Dikkat Çeken Noktalar
