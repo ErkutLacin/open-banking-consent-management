@@ -62,28 +62,4 @@ Bu belge, SA-001'de tanımlanan paydaşların proje boyunca üretilecek her akti
 ## 4. RACI Matrisi
 
 ![RACI Matrisi](/assets/screenshots/raci-heatmap.png)
----
-
-## 5. Dikkat Çeken Noktalar
-
-### 5.1 DEV (Yazılım Geliştirme Ekibi) Rolünün Fazlara Göre Değişimi
-
-Tabloyu satır satır takip edersen DEV sütununun şu şekilde ilerlediğini görürsün:
-
-- **Faz 1 (satır 1-4):** Sadece **I** — henüz teknik uygulama başlamadığı için yalnızca bilgilendirilir.
-- **Faz 2 (satır 5-8):** **C** — gereksinimler netleşirken teknik uygulanabilirlik görüşü alınır.
-- **Faz 3 (satır 9-13):** **C/R karışık** — User Story ve To-Be süreçte danışılan taraf, ama teknik tasarım detaylarında (API, DB şeması) doğrudan katkı sağlar.
-- **Faz 4 (satır 14-15):** **C** — test stratejisine görüş verir, UAT'a katılır.
-
-Bu kademeli geçiş, SA-001'de belirttiğimiz "Faz 1-2: Düşük Etki → Faz 3+: Yüksek Etki" gözlemini RACI'de somut olarak doğrular — ayrı bir tablo açmadan.
-
-### 5.2 "A" Sütununda Birden Fazla Kişi Olan Tek Satır (#17)
-
-Kapanış aktivitesinde hem SPN hem PM'e "A" verdim çünkü Executive Summary hem stratejik (Sponsor) hem operasyonel (Ürün Müdürü) onay gerektiren nadir bir teslimat. **Bu, RACI'nin "her satırda tek A olmalı" kuralına bilinçli bir istisnadır** — gerçek projelerde de üst düzey kapanış raporlarında bu tür çift onay senaryosu görülür. Eğer tek A tercih edilirse, SPN'nin A, PM'in C olması daha "kural uyumlu" olurdu; bunu tartışmaya açık bırakıyorum.
-
----
-
-## 6. Açık Noktalar
-
-- **BKM'nin C rolü yalnızca API Tasarımı satırında var (#11)** — çünkü BKM, banka içi karar süreçlerine katılmaz, yalnızca teknik sertifikasyon standardı belirleyen dış otorite olarak API tasarımı aşamasında görüşü/standardı referans alınır.
-- **CX (Müşteri Deneyimi) ağırlıklı olarak C** — SA-001'de belirtildiği gibi bu ekibin karar yetkisi bağlayıcı değil, öneri niteliğinde.
+--- 
