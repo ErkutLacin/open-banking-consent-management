@@ -119,7 +119,7 @@ flowchart TD
     B4 -.->|Standart değil| X
     C4 -.->|Standart değil| X
 
-    style X fill:#ffcccc,stroke:#cc0000
+    style X fill:#cce5ff,stroke:#004a99,stroke-width:2px,color:#000000
 ```
 
 ---
@@ -129,5 +129,6 @@ flowchart TD
 Bu belgedeki üç kanal ve 5 ortak sorun, Faz 2'de hazırlanacak **Business Requirements Document (BRD)**'nin doğrudan girdisi olacaktır. Her sorun (S-01 – S-05), BRD'de en az bir fonksiyonel gereksinimle eşleştirilecek ve Requirements Traceability Matrix'te (RTM) izlenebilir olacaktır.
 
 ---
+
 
 *Bu belgenin tamamlanmasıyla Faz 1 — Keşif & Kapsam kapanmıştır. Sıradaki faz: Faz 2 — Gereksinim Analizi.*
