@@ -20,7 +20,7 @@
 
 | Versiyon | Tarih | Hazırlayan | Açıklama |
 |----------|-------|-----------|----------|
-| 1.0 | 24 Temmuz 2026 | Erkut Laçin | İlk yayın |
+| 1.0 | - | Erkut Laçin | İlk yayın |
 
 ---
 
@@ -31,6 +31,7 @@ Bu belge, projenin dayandığı üç düzenleme çerçevesini özetler:
 1. **BDDK — ÖHVPS (Ödeme Hizmeti Veri Paylaşım Servisleri) API İlke ve Kuralları v2.0** — proje dosyaları arasında yer alan resmi teknik standart dokümanı
 2. **KVKK (6698 Sayılı Kişisel Verilerin Korunması Kanunu)** — rıza ve veri işleme süreçlerinin hukuki temeli
 
+> **Kaynak Notu:** Bölüm 2'deki tüm ÖHVPS içeriği, proje klasöründeki `ohvps_v2.0.0.pdf` dokümanından derlenmiştir. Bölüm 3 (KVKK), genel kamuya açık bilgiye dayanmaktadır ve **resmi hukuki görüş yerine geçmez** — gerçek bir proje senaryosunda bu bölümün Baş Hukuk Danışmanı tarafından doğrulanması zorunludur.
 
 ---
 
@@ -66,8 +67,6 @@ Bu, projenin **Consent Lifecycle** dokümanının doğrudan temelini oluşturaca
 - `K → E`: Ödeme emri gerçekleştiğinde (yalnızca ödeme akışı)
 - `K → S`: Erişimin geçerli olduğu son tarih geldiğinde
 - `B/Y/K → I`: İptal senaryolarından biri gerçekleştiğinde (aşağıya bakınız)
-
-
 
 ```mermaid
 stateDiagram-v2
@@ -150,12 +149,12 @@ KVKK'nın bu proje için ilgili olduğu düşünülen genel maddeleri:
 
 | Bu Belgedeki İçerik | Nereye Aktarılacak |
 |----------------------|---------------------|
-| Rıza Durumları (2.2) | `consent-lifecycle.md` (Faz 4) |
-| İş Kuralları (2.4) | `business-rules.md` (Faz 2) |
-| Hata Kodları (2.5) | `openapi.yaml` (Faz 3) |
-| KVKK maddeleri (3) | `business-requirements.md` — KVKK Aydınlatma Metni gereksinimleri |
+| Rıza Durumları (2.2) | `consent-lifecycle.md` (Faz 2 — Süreç Analizi) |
+| İş Kuralları (2.4) | `business-rules.md` (Faz 3 — Gereksinim Analizi) |
+| Hata Kodları (2.5) | `openapi.yaml` (Faz 5 — Teknik Analiz) |
+| KVKK maddeleri (3) | `business-requirements.md` (Faz 3 — Gereksinim Analizi) — KVKK Aydınlatma Metni gereksinimleri |
 
 ---
 
-
-*Bir sonraki belge: As-Is Process Analysis (AP-001).*
+*Bu doküman OBRYS-2025 projesine ait mevzuat araştırması belgesidir*
+*Bir sonraki belge: Glossary (GL-001) — bu belgede geçen kısaltmaların ve rıza durum kodlarının konsolide edildiği sözlük.*

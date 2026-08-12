@@ -251,3 +251,4 @@ Bu tüzüğün onaylanması, projenin başlatıldığını ve Business Analyst'e
 
 *Bu doküman OBRYS-2025 projesine ait resmi proje tüzüğüdür.*
 *Tüm revizyonlar versiyon geçmişine işlenmelidir.*
+*Bir sonraki belge: Stakeholder Analysis (SA-001).*

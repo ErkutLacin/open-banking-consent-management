@@ -92,7 +92,9 @@ Bu belge, Portföy Bankası A.Ş.'nin açık bankacılık rıza yönetim sistemi
 
 ---
 
-## 4. Mevcut Süreç Akış Şeması 
+## 4. Mevcut Süreç Akış Şeması (Üst Düzey)
+
+
 
 ```mermaid
 flowchart TD
@@ -126,9 +128,12 @@ flowchart TD
 
 ## 5. Sonraki Adıma Bağlantı
 
-Bu belgedeki üç kanal ve 5 ortak sorun, Faz 2'de hazırlanacak **Business Requirements Document (BRD)**'nin doğrudan girdisi olacaktır. Her sorun (S-01 – S-05), BRD'de en az bir fonksiyonel gereksinimle eşleştirilecek ve Requirements Traceability Matrix'te (RTM) izlenebilir olacaktır.
+Bu belgedeki üç kanal ve 5 ortak sorun (S-01 – S-05) iki yöne bağlanır:
+
+1. **Consent Lifecycle (CL-001):** Bu belgede tespit edilen "rıza durumlarının sistematik takip edilmemesi" sorunu (S-01), Faz 2'nin bir sonraki belgesi olan Consent Lifecycle'da ÖHVPS'nin resmi durum makinesiyle karşılaştırılarak somutlaştırılmıştır.
+2. **Business Requirements Document (BR-001):** Her sorun (S-01 – S-05), Faz 3'te hazırlanan BRD'de en az bir fonksiyonel gereksinimle eşleştirilmiştir (bkz. BR-001, Bölüm 5 — Gereksinim → Sorun İzlenebilirlik Özeti). Bu eşleştirme ilerleyen Faz 4'teki Requirements Traceability Matrix'in (RTM) temelini oluşturacaktır.
 
 ---
 
 
-*Bu belgenin tamamlanmasıyla Faz 1 — Keşif & Kapsam kapanmıştır. Sıradaki faz: Faz 2 — Gereksinim Analizi.*
+*Bir sonraki belge: Consent Lifecycle (CL-001).*
